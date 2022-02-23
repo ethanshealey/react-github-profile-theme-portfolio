@@ -5,7 +5,7 @@ This project was built using ReactJS. To clone and use this project for your own
 To modify the known languages and skills, browse the available icons offered by [React Icons](https://react-icons.github.io/react-icons/) and build your own blocks with the Skill component.
 
 To modify Projects, open `src/static/projects.json` and replace whats there with your own. the syntax is as follows:
-```
+```json
 [
   {
     "name": "Project 1",
@@ -29,7 +29,7 @@ To modify Projects, open `src/static/projects.json` and replace whats there with
 ```
 
 To modify Certificates, open `src/static/certificates.json` and replace whats there with your own. The syntax is as follows:
-```
+```json
 [
   {
     "name": "name of cert",
