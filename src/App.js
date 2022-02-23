@@ -5,8 +5,7 @@ import Projects from './Components/Projects'
 import { FiBookOpen } from 'react-icons/fi'
 import { BiAward } from 'react-icons/bi'
 import { AiOutlineCode } from 'react-icons/ai'
-import GitHubCalendar from 'react-github-calendar';
-
+import Certificates from './Components/Certificates'
 const { Header } = Layout;
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
             <Menu className="header-menu" mode="horizontal" defaultSelectedKeys={['1']}>
               <Menu.Item onClick={() => document.getElementById('overview').scrollIntoView({ behavior: 'smooth', block: 'start' })} key="1" className="header-menu-item"><FiBookOpen className="header-menu-icon" /><b>Overview</b></Menu.Item>
               <Menu.Item onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth', block: 'start' })} key="2" className="header-menu-item"><AiOutlineCode className="header-menu-icon" /><b>Projects</b></Menu.Item>
-              <Menu.Item key="3" className="header-menu-item"><BiAward className="header-menu-icon" /><b>Certificates</b></Menu.Item>
+              <Menu.Item onClick={() => document.getElementById('certificates').scrollIntoView({ behavior: 'smooth', block: 'start' })} key="3" className="header-menu-item"><BiAward className="header-menu-icon" /><b>Certificates</b></Menu.Item>
             </Menu>
           </Col>
         </Row>
@@ -36,6 +35,7 @@ function App() {
             <br />
             <Projects />
             <br />
+            <Certificates />
           </Col>
         </Row>
       </Col>

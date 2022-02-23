@@ -7,7 +7,7 @@ const Info = () => {
 
   return (
     <>
-        <img className="avatar" src="https://avatars.githubusercontent.com/u/19337215?v=4" alt="logo" />
+        <img className="avatar" src='../images/pp.jpg' alt="logo" />
         <h1 className="name">Ethan Shealey</h1>
         <p className="username">ethanshealey</p>
         <a href="../../static/EthanShealeyResume.pdf" download><Button className="cv">Download CV</Button></a>

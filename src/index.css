@@ -232,3 +232,9 @@ body {
 .project:hover {
   border: 1.5px solid #3a3f47 !important;
 }
+.cert-description {
+  font-size: 10px !important;
+  color:#858e98 !important;
+  margin-top: 5px !important;
+  margin-bottom: -5px !important;
+}
