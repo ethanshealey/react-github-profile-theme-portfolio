@@ -1,13 +1,234 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #0D1117 !important;
+  font-family: -apple-system, "system-ui", "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  color: #C9D1D9 !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.avatar {
+  width: 80%;
+  border-radius: 100%;
+  margin-top: 5%;
+  margin-left: 10%;
+  border: 1px solid #2F353B;
+  z-index: 99999 !important;  
+  position: relative !important;
+}
+
+.name {
+  color: #C9D1D9 !important; 
+  margin-left: 10%;
+}
+
+.username {
+  margin-top: -20px;
+  margin-left: 10%;
+  font-weight: 300;
+  color: #8C949E !important;
+  font-size: 20px;
+}
+
+.cv {
+  margin-top: -20px;
+  margin-left: 10%;
+  font-weight: 300;
+  color: #C9D1D9 !important;
+  font-size: 20px;
+  background: #21262D !important;
+  border-color: #373B42 !important;
+  width: 80%;
+}
+
+.email {
+  margin-left: 10%;
+  margin-top: 15px;
+}
+
+.link {
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+.anchor {
+  color: #C9D1D9 !important;
+}
+
+.anchor:hover {
+  color: #58A6FF !important;
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 20px;
+  top: 6px;
+  position: relative;
+  color: #8C949E !important;
+}
+
+.header-menu-icon {
+  font-size: 17px;
+  top: 4px;
+  position: relative;
+  margin-right: 5px !important;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #0D1117 !important;
+  border-bottom: 1.5px solid #21262D;
+  z-index: 99 !important;
+}
+
+.overview {
+  margin-top: 100px;
+  height: auto;
+  border-radius: 10px;
+  border: 1.5px solid #21262D;
+  color: #C9D1D9 !important;
+}
+.overview h1 {
+  color: #C9D1D9 !important;
+  margin-top: 25px;
+}
+.overview h2 {
+  color: #C9D1D9 !important;
+  margin-top: 25px;
+}
+.waving-hand {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  15% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+  30% { transform: rotate(-8.0deg) }
+  40% { transform: rotate(14.0deg) }
+  50% { transform: rotate(-4.0deg) }
+  60% { transform: rotate(10.0deg) }
+  70% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+ 100% { transform: rotate( 0.0deg) }
+}
+
+.divider {
+  background-color: #30363D;
+}
+
+.project-divider {
+  background-color: #30363D;
+  margin-left: -15px !important;
+  width: calc(100% + 15px) !important;
+}
+
+.overview-content {
+  padding-left: 15px;
+}
+
+.about-me-item {
+  margin-top: -15px;
+}
+
+.ant-tabs-nav-wrap {
+  border-bottom:1px solid #0D1117 !important;
+  color: #C9D1D9 !important;
+}
+
+.ant-tabs {
+  height: 100;
+}
+
+.header-menu {
+  background: #0D1117 !important;
+  color: #C9D1D9 !important;
+  border-bottom:#21262D !important;
+}
+
+.header-menu-item {
+  color: #C9D1D9 !important;
+}
+
+.language {
+  width:75px;
+  border: none !important;
+  cursor: default !important;
+}
+
+.lang-type-1 {
+  background-color: #00599C !important;
+  color: white !important;
+}
+.lang-icon {
+  font-size: 17px;
+  top: 3px;
+  position: relative;
+}
+.lang-type-2 {
+  font-size: 17px !important;
+  background-color: #00599C !important;
+  position: relative;
+  color: white !important;
+}
+/*
+.projects {
+  margin-top: 25px;
+  height: auto;
+  border-radius: 10px;
+  border: 1.5px solid #21262D;
+  color: #C9D1D9 !important;
+}
+.projects h1 {
+  color: #C9D1D9 !important;
+  margin-top: 25px;
+}
+.projects-content {
+  padding-left: 15px;
+}
+.project h2, .project h4 {
+  color: #C9D1D9 !important;
+}
+.project-image {
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.project-url {
+  text-decoration: underline;
+  text-decoration-color: #C9D1D9 !important;
+}
+.project-url:hover {
+  text-decoration: underline;
+  text-decoration-color: #58A6FF !important;
+  color: #58A6FF !important;
+}*/
+.projects {
+  padding: 15px !important;
+}
+.projects h2 {
+  color: #C9D1D9 !important;
+}
+.project {
+  width: 95%;
+  border: 1.5px solid #21262D;
+  padding: 15px !important;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.project-description {
+  font-size: 10px !important;
+  margin-top: 10px;
+  color:#858e98 !important;
+}
+.project-lang {
+  color: #838c96 !important;
+  margin-top: 5px; 
+  font-size: 12px;
+}
+.project:hover {
+  border: 1.5px solid #3a3f47 !important;
 }

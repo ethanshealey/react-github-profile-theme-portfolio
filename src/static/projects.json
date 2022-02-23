@@ -1,0 +1,129 @@
+[
+    {
+        "name": "STEM Access For All",
+        "url": "https://www.stemaccessforall.org/",
+        "description": "STEM Access For All is a nonprofit organization that provides free access to STEM education to students in underserved communities. The organization works with schools, community colleges, and universities to provide free access to STEM education to students in underserved communities.",
+        "image": "../images/safa.png",
+        "main_language": "Python",
+        "source": null,
+        "tools": [
+            "Flask",
+            "Flask Admin",
+            "Flask Login",
+            "SQL / SQLAlchemy / SQLite",
+            "Flask Mail"
+        ],
+        "features": [
+            "User Registration / Login",
+            "Admin Panel",
+            "Survey System",
+            "Custom Messaging System along with Email support",
+            "Custom Search Function",
+            "Custom Content Management System"
+        ]
+    },
+    {
+        "name": "Tux Jobs",
+        "url": null,
+        "description": "TuxJobs is my groups final project for our Mobile Applications course.",
+        "image": "../images/tuxjobs.png",
+        "main_language": "JavaScript",
+        "source": null,
+        "tools": [
+            "React Native",
+            "Native Base",
+            "Expo Go",
+            "react-native-card-stack-swiper"
+        ],
+        "features": [
+            "Login, Signup, and Reset Password",
+            "Job postings presented as a swipeable card, swipe left to reject and swipe right to save",
+            "A history page with filters made to simplify the job application process",
+            "Settings page allowing users to enable and disable special options such as \"Cat Naps\", \"Swipe Ratio Warning\", and \"Job Entry Expiration\""
+        ]
+    },
+    {
+        "name": "Image Converter",
+        "url": "http://converter.ethanshealey.com/",
+        "source": "https://github.com/ethanshealey/ReactConverter",
+        "description": "Converter is a simple React app that allows users to upload JPEG, PNG, and GIF files in order to either convert or compress the image. ",
+        "image": "../images/converter.png",
+        "main_language": "JavaScript",
+        "tools": [
+            "AntDesign",
+            "ReactJS",
+            "image-conversion"
+        ],
+        "features": [
+            "Easy to use",
+            "Convert images to JPEG, PNG, and GIF",
+            "Compress images up to 5x smaller then original",
+            "Hosted on Github"
+        ]
+    },
+    {
+        "name": "Trivia! (Web)",
+        "url": "http://trivia.ethanshealey.com/",
+        "source": "https://github.com/ethanshealey/ReactTrivia",
+        "description": "React app that takes advantage of Opentdb API to provide a simple and fun game to the user.",
+        "image": "../images/trivia.png",
+        "main_language": "JavaScript",
+        "tools": [
+            "AntDesign",
+            "ReactJS",
+            "Opentdb API"
+        ],
+        "features": [
+            "Thousands of fun questions",
+            "Able to filter questions by Category, Difficulty, and Type",
+            "Hosted on Github"
+        ]
+    },
+    {
+        "name": "Recipes API and Web App",
+        "url": "http://recipes.ethanshealey.com/",
+        "source": "https://github.com/ethanshealey/recipes-api",
+        "description": "Python Flask Web App that communicates with a custom API built in Node",
+        "image": "../images/recipes.png",
+        "main_language": "Python",
+        "tools": [
+            "Flask",
+            "Flask Login",
+            "SQL / SQLalchemy / sqlite3",
+            "NodeJS",
+            "Express",
+            "Heroku",
+            "MySQL / ClearDB"
+        ],
+        "features": [
+            "GET /recipes",
+            "GET /recipes/:id:",
+            "POST /recipes",
+            "POST /recipes/:id:",
+            "DELETE /recipes/:id:",
+            "Simplified, straight to the point, recipes",
+            "Custom Search",
+            "Add, Modify, and Remove Recipes"
+        ]
+    },
+    {
+        "name": "Programming Blog",
+        "url": null,
+        "source": "https://github.com/ethanshealey/programming-blog",
+        "main_language": "Python",
+        "description": "A simple blog that allows users to create, edit, and delete blog posts.",
+        "tools": [
+            "Flask",
+            "Flask Admin",
+            "Flask Login",
+            "SQL / SQLalchemy / sqlite3"
+        ],
+        "features": [
+            "Admin Panel",
+            "Custom Messaging System along with Email",
+            "Custom Search Function",
+            "Custom Live HTML Editor for Creating Posts",
+            "Tag System"
+        ]
+    }
+]
