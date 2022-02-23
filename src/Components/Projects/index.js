@@ -2,7 +2,7 @@ import { Divider, Row, Col } from 'antd'
 import Project from '../Project'
 import projects from '../../static/projects.json'
 
-const Projects = () => {
+const Projects = (props) => {
 
     return (
         <div className="projects">
@@ -13,7 +13,7 @@ const Projects = () => {
                     <>
                         <Col xs={1} sm={1} md={0}></Col>
                         <Col xs={24} sm={24} md={12} className="project-image">
-                            <Project key={index} project={project} />
+                            <Project key={index} project={project} setProject={props.setProject} setShowProjectModal={props.setShowProjectModal} />
                         </Col>
                     </>
                 )

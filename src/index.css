@@ -38,7 +38,9 @@ body {
   border-color: #373B42 !important;
   width: 80%;
 }
-
+.cv:hover {
+  border-color: #3a3f47 !important;
+}
 .email {
   margin-left: 10%;
   margin-top: 15px;
@@ -172,6 +174,14 @@ body {
   position: relative;
   color: white !important;
 }
+.lang-type-3 {
+  background-color: #323330 !important;
+  color: white !important;
+}
+.lang-type-4 {
+  background-color: #ed8b00 !important;
+  color: white !important;
+}
 /*
 .projects {
   margin-top: 25px;
@@ -229,7 +239,7 @@ body {
   margin-top: 5px; 
   font-size: 12px;
 }
-.project:hover {
+.project:hover{
   border: 1.5px solid #3a3f47 !important;
 }
 .cert-description {
@@ -237,4 +247,43 @@ body {
   color:#858e98 !important;
   margin-top: 5px !important;
   margin-bottom: -5px !important;
+}
+
+.ant-modal-header {
+  background-color: #1F1F1F !important;
+  border-bottom: 1px solid #303030 !important;
+  font-family: 'Paytone One', sans-serif !important;
+}
+.ant-modal-title, .ant-modal-close {
+  color: #DEDEDE !important;
+}
+.ant-modal-footer {
+  background-color: #1F1F1F !important;
+  border-top: 1px solid #303030 !important;
+}
+.ant-modal-footer .ant-btn {
+  color: #DEDEDE !important;
+}
+.ant-tabs-tab-btn {
+  margin-top: 15px !important;
+  color: #dedede !important;
+}
+.project-modal-data {
+  color: #C9D1D9 !important;
+}
+
+.ant-tabs-nav-wrap {
+  border-bottom: 1px solid #303030 !important;
+}
+.ant-menu-item {
+  background-color: #0D1117 !important;
+  color: #C9D1D9 !important;
+}
+.ant-menu-sub {
+  background-color: #0D1117 !important;
+  border: 1px solid #3a3f47 !important;
+}
+.ant-back-top-content {
+  border: 1px solid #3a3f47 !important;
+  color: #C9D1D9 !important;
 }

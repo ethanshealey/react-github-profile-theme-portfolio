@@ -25,7 +25,7 @@
     {
         "name": "Tux Jobs",
         "url": null,
-        "description": "TuxJobs is my groups final project for our Mobile Applications course.",
+        "description": "TuxJobs is my groups' final project for our Mobile Applications course.",
         "image": "../images/tuxjobs.png",
         "main_language": "JavaScript",
         "source": null,
@@ -38,7 +38,7 @@
         "features": [
             "Login, Signup, and Reset Password",
             "Job postings presented as a swipeable card, swipe left to reject and swipe right to save",
-            "A history page with filters made to simplify the job application process",
+            "History page with filters made to simplify the job application process",
             "Settings page allowing users to enable and disable special options such as \"Cat Naps\", \"Swipe Ratio Warning\", and \"Job Entry Expiration\""
         ]
     },
@@ -57,13 +57,13 @@
         "features": [
             "Easy to use",
             "Convert images to JPEG, PNG, and GIF",
-            "Compress images up to 5x smaller then original",
-            "Hosted on Github"
+            "Compress images up to 5x smaller then original"
         ]
     },
     {
         "name": "Trivia! (Web)",
         "url": "http://trivia.ethanshealey.com/",
+        "api": "https://www.opentdb.com",
         "source": "https://github.com/ethanshealey/ReactTrivia",
         "description": "React app that takes advantage of Opentdb API to provide a simple and fun game to the user.",
         "image": "../images/trivia.png",
@@ -75,13 +75,13 @@
         ],
         "features": [
             "Thousands of fun questions",
-            "Able to filter questions by Category, Difficulty, and Type",
-            "Hosted on Github"
+            "Able to filter questions by Category, Difficulty, and Type"
         ]
     },
     {
         "name": "Recipes API and Web App",
         "url": "http://recipes.ethanshealey.com/",
+        "api": "http://api.ethanshealey.com/recipes",
         "source": "https://github.com/ethanshealey/recipes-api",
         "description": "Python Flask Web App that communicates with a custom API built in Node",
         "image": "../images/recipes.png",
