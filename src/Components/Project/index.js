@@ -9,7 +9,6 @@ const Project = (props) => {
     const handleProjectCLick = () => {
         props.setProject(props.project)
         props.setShowProjectModal(true)
-        console.log(`Clicked on ${props.project.name}`)
     }
 
     return (
