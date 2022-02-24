@@ -220,3 +220,7 @@ body {
 .ant-menu-item-active, .ant-menu-item-selected {
   background-color: rgba(0,0,0,0) !important;
 }
+.ant-tabs-nav-wrap {
+  border-bottom:1px solid #0D1117 !important;
+  color: #C9D1D9 !important;
+}
