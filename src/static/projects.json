@@ -125,6 +125,20 @@
         ]
     },
     {
+        "name": "Original Portfolio",
+        "url": "http://old.ethanshealey.com/",
+        "source": "https://github.com/ethanshealey/portfolio",
+        "description": "Python Flask Web App that acted as my original portfolio, allowing visitors to view my projects, certificates, and contact information",
+        "image": "../images/oldportfolio.png",
+        "main_language": "Python",
+        "tools": [
+            "Flask"
+        ],
+        "features": [
+            "View my projects, certificates, and contact information"
+        ]
+    },
+    {
         "name": "Programming Blog",
         "url": null,
         "source": "https://github.com/ethanshealey/programming-blog",
