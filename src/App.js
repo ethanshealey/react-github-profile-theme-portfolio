@@ -1,10 +1,11 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Space, Row, Col, Layout, Menu, BackTop } from 'antd'
 import Info from './Components/Info'
 import Overview from './Components/Overview'
 import Projects from './Components/Projects'
 import { FiBookOpen } from 'react-icons/fi'
 import { BiAward } from 'react-icons/bi'
+import { GiHamburgerMenu } from 'react-icons/gi'
 import { AiOutlineCode } from 'react-icons/ai'
 import Certificates from './Components/Certificates'
 import ProjectModal from './Components/ProjectModal'
@@ -30,7 +31,7 @@ function App() {
           <Row>
             <Col sm={0} md={7}/>
             <Col sm={24 }md={17}>
-              <Menu className="header-menu" mode="horizontal" defaultSelectedKeys={['1']}>
+              <Menu className="header-menu" mode="horizontal" defaultSelectedKeys={['1']} overflowedIndicator={<GiHamburgerMenu />}>
                 <Menu.Item onClick={() => document.getElementById('overview').scrollIntoView({ behavior: 'smooth', block: 'start' })} key="1" className="header-menu-item"><FiBookOpen className="header-menu-icon" /><b>Overview</b></Menu.Item>
                 <Menu.Item onClick={() => document.getElementById('projects').scrollIntoView({ behavior: 'smooth', block: 'start' })} key="2" className="header-menu-item"><AiOutlineCode className="header-menu-icon" /><b>Projects</b></Menu.Item>
                 <Menu.Item onClick={() => document.getElementById('certificates').scrollIntoView({ behavior: 'smooth', block: 'start' })} key="3" className="header-menu-item"><BiAward className="header-menu-icon" /><b>Certificates</b></Menu.Item>
