@@ -10,6 +10,7 @@ To modify Projects, open `src/static/projects.json` and replace whats there with
   {
     "name": "Project 1",
     "url": "www.example.com",
+    "api": "URL for any API used",
     "description": "This is my project!",
     "image": "path/to/example/image",
     "main_language": "The main language used in the project, i.e JavaScript",

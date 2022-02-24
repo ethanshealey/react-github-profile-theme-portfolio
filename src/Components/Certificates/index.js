@@ -3,6 +3,8 @@ import certificates from '../../static/certificates.json'
 import Certificate from '../Certificate'
 
 const Certificates = (props) => {
+
+
   return (
     <div className="projects">
             <h2 id="certificates">Certificates</h2>
@@ -12,7 +14,7 @@ const Certificates = (props) => {
                     <>
                         <Col xs={1} sm={1} md={0}></Col>
                         <Col xs={24} sm={24} md={12} className="project-image">
-                            <Certificate key={index} cert={cert} />
+                            <Certificate key={index} cert={cert} setCertificate={props.setCertificate} setShowCertificateModal={props.setShowCertificateModal} />
                         </Col>
                     </>
                 )

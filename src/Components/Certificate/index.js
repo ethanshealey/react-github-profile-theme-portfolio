@@ -4,12 +4,14 @@ import { FaGraduationCap } from 'react-icons/fa'
 const { Paragraph, Text } = Typography
 
 const Certificate = (props) => {
-    const handleProjectCLick = () => {
-        console.log(`Clicked on ${props.cert.name}`)
+
+    const handleCertificateClick = () => {
+        props.setCertificate(props.cert)
+        props.setShowCertificateModal(true)
     }
 
     return (
-        <div className="project" onClick={() => handleProjectCLick()} href={props.cert.url}>
+        <div className="project" onClick={() => handleCertificateClick()} href={props.cert.url}>
             <FaGraduationCap className="header-menu-icon" /> {props.cert.name}
             <Paragraph ellipsis className="cert-description">
                 {props.cert.provider}

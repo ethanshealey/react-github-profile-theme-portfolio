@@ -8,6 +8,7 @@ import { BiAward } from 'react-icons/bi'
 import { AiOutlineCode } from 'react-icons/ai'
 import Certificates from './Components/Certificates'
 import ProjectModal from './Components/ProjectModal'
+import CertificateModal from './Components/CertificateModal'
 
 const { Header, Footer } = Layout;
 
@@ -16,10 +17,14 @@ function App() {
   const [ project, setProject ] = useState(null)
   const [ showProjectModal, setShowProjectModal ] = useState(false)
 
+  const [ certificate, setCertificate ] = useState(null)
+  const [ showCertificateModal, setShowCertificateModal ] = useState(false)
+
   return (
     <>
       <BackTop />
       <ProjectModal project={project} showProjectModal={showProjectModal} setShowProjectModal={setShowProjectModal} />
+      <CertificateModal certificate={certificate} showCertificateModal={showCertificateModal} setShowCertificateModal={setShowCertificateModal} />
       <Row>
         <Header className="header">
           <Row>
@@ -44,7 +49,7 @@ function App() {
               <Overview />
               <br />
               <Projects setProject={setProject} setShowProjectModal={setShowProjectModal} />
-              <Certificates />
+              <Certificates setCertificate={setCertificate} setShowCertificateModal={setShowCertificateModal} />
             </Col>
           </Row>
         </Col>

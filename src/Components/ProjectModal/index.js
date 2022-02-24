@@ -7,15 +7,13 @@ const { TabPane } = Tabs
 
 const ProjectModal = (props) => {
 
-  const openProject = () => window.open(`${props.project?.url}`, '_blank').focus()
-
   return (
     <Modal cancelButtonProps={{ type: 'ghost' }} bodyStyle={{ backgroundColor: '#1F1F1F' }} centered footer={
         props.project?.url ?
         [
             props.project?.source && <Button type="ghost" onClick={() => window.open(`${props.project?.source}`, '_blank').focus()}>View Source</Button>,
             props.project?.api && <Button type="ghost" onClick={() => window.open(`${props.project?.api}`, '_blank').focus()}>Visit API</Button>,
-            props.project?.url && <Button type='primary' onClick={() => openProject()}>Visit</Button> 
+            props.project?.url && <Button type='primary' onClick={() => window.open(`${props.project?.url}`, '_blank').focus()}>Visit</Button> 
         ] : false
     } title={props.project?.name} visible={props.showProjectModal} onCancel={() => props.setShowProjectModal(false)}>
         <Image src={props.project?.image} />
