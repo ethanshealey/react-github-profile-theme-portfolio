@@ -142,6 +142,7 @@
         "name": "Programming Blog",
         "url": null,
         "source": "https://github.com/ethanshealey/programming-blog",
+        "image": "../images/blog.png",
         "main_language": "Python",
         "description": "A simple blog that allows users to create, edit, and delete blog posts.",
         "tools": [
