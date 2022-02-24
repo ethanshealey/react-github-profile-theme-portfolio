@@ -152,9 +152,7 @@ body {
   top: 3px;
   position: relative;
 }
-.projects {
-  padding: 15px !important;
-}
+
 .projects h2 {
   color: #C9D1D9 !important;
 }
@@ -220,6 +218,9 @@ body {
   background-color: rgba(0,0,0,0) !important;
 }
 .ant-tabs-nav-wrap {
-  border-bottom:1px solid #3a3f47 !important;
+  border-bottom:1px solid #0D1117 !important;
   color: #C9D1D9 !important;
+}
+.content-wrapper {
+  margin-left: 15px;
 }

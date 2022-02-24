@@ -10,7 +10,7 @@ const Info = () => {
   const screens = useBreakpoint()
 
   return (
-    <div style={{ marginTop: screens['md'] ? 0 : '70px' }}>
+        <div style={{ marginTop: screens['md'] ? 0 : '70px' }}>
         <img className="avatar" style={{ zIndex: screens['md'] ? 999 : 0 }} src='../images/pp.jpg' alt="logo"/>
         <h1 className="name">Ethan Shealey</h1>
         <p className="username">ethanshealey</p>

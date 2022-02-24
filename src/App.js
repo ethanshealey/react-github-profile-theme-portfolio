@@ -49,8 +49,10 @@ function App() {
             <Col md={23}>
               <Overview />
               <br />
-              <Projects setProject={setProject} setShowProjectModal={setShowProjectModal} />
-              <Certificates setCertificate={setCertificate} setShowCertificateModal={setShowCertificateModal} />
+              <div className="content-wrapper">
+                <Projects setProject={setProject} setShowProjectModal={setShowProjectModal} />
+                <Certificates setCertificate={setCertificate} setShowCertificateModal={setShowCertificateModal} />
+              </div>
             </Col>
           </Row>
         </Col>

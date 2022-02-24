@@ -7,11 +7,10 @@ const Projects = (props) => {
     return (
         <div className="projects">
             <h2 id="projects">Projects</h2>
-            <Row wrap> 
+            <Row justify="center" wrap> 
             {projects.map((project, index) => {
                 return (
                     <>
-                        <Col xs={1} sm={1} md={0}></Col>
                         <Col xs={24} sm={24} md={12} className="project-image">
                             <Project key={index} project={project} setProject={props.setProject} setShowProjectModal={props.setShowProjectModal} />
                         </Col>
