@@ -11,7 +11,6 @@ body {
   margin-top: 5%;
   margin-left: 10%;
   border: 1px solid #2F353B;
-  z-index: 99999 !important;  
   position: relative !important;
 }
 
