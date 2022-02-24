@@ -23,6 +23,24 @@
         ]
     },
     {
+        "name": "Github Profile Themed Personal Portfolio",
+        "url": "https://www.ethanshealey.com",
+        "description": "A personal portfolio made to replicate the style of a Github Profile. This portfolio showcases skills, projects, and certificates.",
+        "image": "../images/portfolio.png",
+        "main_language": "JavaScript",
+        "source": "https://github.com/ethanshealey/react-github-profile-theme-portfolio",
+        "tools": [
+            "ReactJS",
+            "Ant Design"
+        ],
+        "features": [
+            "Responsive Design",
+            "Showcases skills, projects, and certificates",
+            "Quick access to contact, CV, and socials",
+            "Crafted to look like a Github Profile, down to the exact hex values"
+        ]
+    },
+    {
         "name": "Tux Jobs",
         "url": null,
         "description": "TuxJobs is my groups' final project for our Mobile Applications course.",

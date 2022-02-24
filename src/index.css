@@ -133,16 +133,6 @@ body {
 .about-me-item {
   margin-top: -15px;
 }
-
-.ant-tabs-nav-wrap {
-  border-bottom:1px solid #0D1117 !important;
-  color: #C9D1D9 !important;
-}
-
-.ant-tabs {
-  height: 100;
-}
-
 .header-menu {
   background: #0D1117 !important;
   color: #C9D1D9 !important;
@@ -219,7 +209,6 @@ body {
 .project-modal-data {
   color: #C9D1D9 !important;
 }
-
 .ant-menu-sub {
   background-color: #0D1117 !important;
   border: 1px solid #3a3f47 !important;
@@ -229,5 +218,5 @@ body {
   color: #C9D1D9 !important;
 }
 .ant-menu-item-active, .ant-menu-item-selected {
-  background-color: #0D1117 !important;
+  background-color: rgba(0,0,0,0) !important;
 }
