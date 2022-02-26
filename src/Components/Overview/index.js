@@ -85,7 +85,6 @@ const Overview = () => {
             <Skill icon={<SiDocker />} skill="Docker" bg="#0db7ed" color="white" />
             <Skill icon={<SiPostman />} skill="Postman" bg="#ff6c37" color="white" />
             <Skill icon={<SiRaspberrypi />} skill="Raspbery Pi" bg="#c51a4a" color="white" />
-            <Skill icon={<SiTorbrowser />} skill="Tor" bg="#7e4798" color="white" />
             <Skill icon={<SiMicrosoftoffice />} skill="Microsoft Office" bg="#d83b01" color="white" />
           </Space>
         </div>
