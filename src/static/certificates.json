@@ -1,5 +1,17 @@
 [
     {
+        "name": "CAD101EN: Introduction to Cloud Development with HTML, CSS, and JavaScript",
+        "images": "../images/frontendcert.png",
+        "provider": "edx.org",
+        "url": "https://courses.edx.org/certificates/9339aa9ee0834c5c808eec9d103a56ff"
+    },
+    {
+        "name": "CC0101EN: Introduction to Cloud Computing",
+        "image": "../images/IntroCloudCompCert.png",
+        "provider": "edx.org",
+        "url": "https://courses.edx.org/certificates/453efd168fbf40299603199037866004"
+    },
+    {
         "name": "Back End Development and APIs Certification",
         "image": "../images/backendcert.png",
         "provider": "FreeCodeCamp.org",
@@ -12,7 +24,7 @@
         "url": "https://freecodecamp.org/certification/fcc535c291b/javascript-algorithms-and-data-structures"
     },
     {
-        "name": " Python Core Course",
+        "name": "Python Core Course",
         "image": "../images/pythoncert.png",
         "provider": "sololearn.org",
         "url": "https://www.sololearn.com/Certificate/1073-4777625/pdf/"
