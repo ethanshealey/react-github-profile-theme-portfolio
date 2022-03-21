@@ -224,3 +224,6 @@ body {
 .content-wrapper {
   margin-left: 15px;
 }
+.cert-name {
+  color: #C9D1D9 !important;
+}

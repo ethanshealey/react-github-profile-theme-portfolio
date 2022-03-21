@@ -1,4 +1,6 @@
-import { Modal, Image, Tabs, Button, Tooltip } from 'antd'
+import { Modal, Image, Tabs, Button, Tooltip, Typography } from 'antd'
+
+const { Paragraph, Text } = Typography
 
 const CertificateModal = (props) => {
   return (
@@ -6,7 +8,7 @@ const CertificateModal = (props) => {
       [
           <Button type='primary' onClick={() => window.open(`${props.certificate?.url}`, '_blank').focus()}>Visit</Button> 
       ] 
-  } title={props.certificate?.name} visible={props.showCertificateModal} onCancel={() => props.setShowCertificateModal(false)}>
+  } title={<Paragraph ellipsis className="cert-name" style={{maxWidth: '450px'}}>{props.certificate?.name}</Paragraph>} visible={props.showCertificateModal} onCancel={() => props.setShowCertificateModal(false)}>
       <Image src={props.certificate?.image} />
   </Modal>
   )

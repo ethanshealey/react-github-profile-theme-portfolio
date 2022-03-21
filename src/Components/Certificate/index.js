@@ -12,7 +12,9 @@ const Certificate = (props) => {
 
     return (
         <div className="project" onClick={() => handleCertificateClick()} href={props.cert.url}>
-            <FaGraduationCap className="header-menu-icon" /> {props.cert.name}
+            <Paragraph ellipsis className="cert-name">
+                <FaGraduationCap className="header-menu-icon" /> {props.cert.name}
+            </Paragraph>
             <Paragraph ellipsis className="cert-description">
                 {props.cert.provider}
             </Paragraph>
