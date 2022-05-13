@@ -1,5 +1,11 @@
 [
     {
+        "name": " CAD201EN: Developing Cloud Native Applications ",
+        "image": "../images/cloudnativeapps.png",
+        "provider": "edx.org",
+        "url": "https://courses.edx.org/certificates/c5af3cba2baf4ee68a6ef82e1bdc5483"
+    },
+    {
         "name": "CAD101EN: Introduction to Cloud Development with HTML, CSS, and JavaScript",
         "image": "../images/frontendcert.png",
         "provider": "edx.org",
