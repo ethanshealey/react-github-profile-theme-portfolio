@@ -1,6 +1,12 @@
 [
     {
-        "name": " CAD201EN: Developing Cloud Native Applications ",
+        "name": " CAD220EN: Developing Cloud Applications with Node.js and React ",
+        "image": "../images/cloudreactnodecert.png",
+        "provider": "edx.org",
+        "url": "https://courses.edx.org/certificates/f6e2361a7bca4bea9eb9fb469a80928b"
+    },
+    {
+        "name": "CAD201EN: Developing Cloud Native Applications",
         "image": "../images/cloudnativeapps.png",
         "provider": "edx.org",
         "url": "https://courses.edx.org/certificates/c5af3cba2baf4ee68a6ef82e1bdc5483"
