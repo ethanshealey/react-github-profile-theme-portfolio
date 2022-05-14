@@ -1,6 +1,12 @@
 [
     {
-        "name": " CAD220EN: Developing Cloud Applications with Node.js and React ",
+        "name": "Cloud Application Development Foundations",
+        "image": "../images/cloudappdevfund.png",
+        "provider": "edx.org",
+        "url": "https://credentials.edx.org/credentials/0472b09bbe0a43cd9b73e13823369fa4/"
+    },
+    {
+        "name": "CAD220EN: Developing Cloud Applications with Node.js and React",
         "image": "../images/cloudreactnodecert.png",
         "provider": "edx.org",
         "url": "https://courses.edx.org/certificates/f6e2361a7bca4bea9eb9fb469a80928b"
