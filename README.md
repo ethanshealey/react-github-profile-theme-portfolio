@@ -2,7 +2,7 @@
 
 This project was built using ReactJS. To clone and use this project for your own portfolio you can simply run `git clone https://www.github.com/ethanshealey/react-github-profile-theme-portfolio`. Once cloned run `npm init` in order to install the needed packages.
 
-To modify the known languages and skills, browse the available icons offered by [React Icons](https://react-icons.github.io/react-icons/) and build your own blocks with the Skill component.
+To modify the known languages and skills, browse the available icons offered by [React Icons](https://react-icons.github.io/react-icons/) and build your own blocks with the [Skill](src/Components/Skill/index.js) component.
 
 To modify Projects, open `src/static/projects.json` and replace whats there with your own. the syntax is as follows:
 ```json
