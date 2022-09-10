@@ -11,7 +11,7 @@ const Info = () => {
 
   return (
         <div style={{ marginTop: screens['md'] ? 0 : '70px' }}>
-        <img className="avatar" style={{ zIndex: screens['md'] ? 999 : 0 }} src='../images/pp.jpg' alt="logo"/>
+        <img className="avatar" style={{ zIndex: screens['md'] ? 999 : 0 }} src='../images/pp.jpeg' alt="logo"/>
         <h1 className="name">Ethan Shealey</h1>
         <p className="username">ethanshealey</p>
         <a href="../assets/EthanShealeyResume.pdf" download><Button className="cv">Download CV</Button></a>
