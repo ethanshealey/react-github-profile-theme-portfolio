@@ -98,10 +98,9 @@
     },
     {
         "name": "Recipes API and Web App",
-        "url": "http://recipes.ethanshealey.com/",
-        "api": "http://api.ethanshealey.com/recipes",
+        "url": "https://recipes.ethanshealey.com/",
         "source": "https://github.com/ethanshealey/recipes-api",
-        "description": "Python Flask Web App that communicates with a custom API built in Node",
+        "description": "Python Flask Web App that communicates with a custom API built in Node\nNote: App was converted to a React and Firebase app due to Heroky depricating their free tier",
         "image": "../images/recipes.png",
         "main_language": "Python",
         "tools": [
@@ -111,7 +110,11 @@
             "NodeJS",
             "Express",
             "Heroku",
-            "MySQL / ClearDB"
+            "MySQL / ClearDB",
+            "After Conversion:",
+            "React",
+            "Firebase/Firestore",
+            "Github Pages"
         ],
         "features": [
             "GET /recipes",
@@ -126,7 +129,7 @@
     },
     {
         "name": "Original Portfolio",
-        "url": "http://old.ethanshealey.com/",
+        "url": null,
         "source": "https://github.com/ethanshealey/portfolio",
         "description": "Python Flask Web App that acted as my original portfolio, allowing visitors to view my projects, certificates, and contact information",
         "image": "../images/oldportfolio.png",
