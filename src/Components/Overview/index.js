@@ -15,7 +15,7 @@ const Overview = () => {
         <div className="overview-content">
           <h2>About Me</h2>
           <br />
-          <p className="about-me-item">🏠 Hometown: <a href="https://www.google.com/maps/place/High+Point,+NC/@35.9996099,-80.0537088,12z/data=!3m1!4b1!4m5!3m4!1s0x88530bc771b841eb:0xf2ee8a2d049910df!8m2!3d35.9556923!4d-80.0053176" target="_blank">High Point</a>, North Carolina</p>
+          <p className="about-me-item">🏠 Hometown: <a href="https://www.durhamnc.gov/" target="_blank">Durham</a>, North Carolina</p>
           <p className="about-me-item">🏫 University: <a href="https://www.highpoint.edu/" target="_blank">High Point University</a></p>
           <p className="about-me-item">📚 Major: <a href="https://www.highpoint.edu/computerscience/" target="_blank">B.S. Computer Science</a></p>
           <p className="about-me-item">👨‍💻 Currently at: <a href="https://fidelity.com" target="_blank">Fidelity Investments</a></p>
