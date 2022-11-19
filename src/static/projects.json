@@ -100,7 +100,7 @@
         "name": "Recipes API and Web App",
         "url": "https://recipes.ethanshealey.com/",
         "source": "https://github.com/ethanshealey/recipes-api",
-        "description": "Python Flask Web App that communicates with a custom API built in Node\nNote: App was converted to a React and Firebase app due to Heroky depricating their free tier",
+        "description": "Python Flask Web App that communicates with a custom API built in Node\nNote: App was converted to a React and Firebase app due to Heroku depricating their free tier",
         "image": "../images/recipes.png",
         "main_language": "Python",
         "tools": [
