@@ -23,6 +23,26 @@
         ]
     },
     {
+        "name": "Web-based Code Editor",
+        "url": "https://code.ethanshealey.com",
+        "description": "A simple code editor that can run dozens of languages!",
+        "image": "../images/code.png",
+        "main_language": "JavaScript",
+        "source": "https://github.com/ethanshealey/wordle/tree/v2",
+        "tools": [
+            "React",
+            "TypeScript",
+            "Monaco Editor",
+            "Judge0 API"
+        ],
+        "features": [
+            "Responsive Design",
+            "38 Languages",
+            "Dozens of themes",
+            "Easy to use"
+        ]
+    },
+    {
         "name": "Wordle Clone",
         "url": "https://wordle.ethanshealey.com",
         "description": "A clone of the famous 'Wordle' game!",
