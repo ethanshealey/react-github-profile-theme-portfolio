@@ -1,7 +1,6 @@
 import React from 'react'
-import { Divider, Button, Space, Tooltip } from 'antd'
-import { SiYarn, SiAnsible, SiGithub, SiApache, SiIos, SiMacos, SiKalilinux, SiDebian, SiUbuntu, SiLinux, SiIntellijidea, SiCodepen, SiClion, SiAndroid, SiVim, SiVisualstudio, SiVisualstudiocode, SiSqlite, SiMariadb, SiMysql, SiMongodb, SiBootstrap, SiAntdesign, SiHeroku, SiFirebase, SiExpo, SiDjango, SiFlask, SiJquery, SiElectron, SiCplusplus, SiC, SiJavascript, SiTypescript, SiPython, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiReactrouter, SiExpress, SiDocker, SiPostman, SiNginx, SiRaspberrypi, SiTorbrowser, SiMicrosoftoffice, SiJava, SiNpm, SiWindows } from 'react-icons/si'
-import { FaJava, FaNpm, FaWindows } from 'react-icons/fa'
+import { Divider, Space } from 'antd'
+import { SiJenkins, SiTerraform, SiSpring, SiYarn, SiAnsible, SiGithub, SiApache, SiIos, SiMacos, SiKalilinux, SiDebian, SiUbuntu, SiLinux, SiIntellijidea, SiCodepen, SiClion, SiAndroid, SiVim, SiVisualstudio, SiVisualstudiocode, SiSqlite, SiMariadb, SiMysql, SiMongodb, SiBootstrap, SiAntdesign, SiHeroku, SiFirebase, SiExpo, SiDjango, SiFlask, SiJquery, SiElectron, SiCplusplus, SiC, SiJavascript, SiTypescript, SiPython, SiHtml5, SiCss3, SiReact, SiNodedotjs, SiReactrouter, SiExpress, SiDocker, SiPostman, SiNginx, SiRaspberrypi, SiTorbrowser, SiMicrosoftoffice, SiJava, SiNpm, SiWindows } from 'react-icons/si'
 import Matlab from '../Matlab'
 import Skill from '../Skill'
 
@@ -20,7 +19,7 @@ const Overview = () => {
           <p className="about-me-item">📚 Major: <a href="https://www.highpoint.edu/computerscience/" target="_blank">B.S. Computer Science</a></p>
           <p className="about-me-item">👨‍💻 Currently at: <a href="https://fidelity.com" target="_blank">Fidelity Investments</a></p>
           <h2>Languages I Know</h2>
-          <Space wrap>
+          <Space wrap style={{ maxWidth: "800px" }}>
             <Skill icon={<SiC />} skill="C" bg="#00599c" color="white" />
             <Skill icon={<SiCplusplus />} skill="C++" bg="#00599c" color="white" />
             <Skill icon={<SiJavascript />} skill="JavaScript" bg="#323330" color="white" />
@@ -32,7 +31,8 @@ const Overview = () => {
             <Skill icon={<SiCss3 />} skill="CSS3" bg="#1572b6" color="white" />
           </Space>
           <h2>Frameworks I Use</h2>
-          <Space wrap>
+          <Space wrap style={{ maxWidth: "800px" }}>
+            <Skill icon={<SiSpring />} skill="Spring" bg="#6db33f" color="white" />
             <Skill icon={<SiReact />} skill="React/React Native" bg="#20232a" color="white" />
             <Skill icon={<SiNodedotjs />} skill="NodeJS" bg="#6da55f" color="white" />
             <Skill icon={<SiReactrouter />} skill="React Router" bg="#ca4245" color="white" />
@@ -43,7 +43,10 @@ const Overview = () => {
             <Skill icon={<SiDjango />} skill="Django" bg="#092e20" color="white" />
           </Space>
           <h2>Tools and Databases I Use</h2>
-          <Space wrap>
+          <Space wrap style={{ maxWidth: "800px" }}>
+            <Skill icon={<SiTerraform />} skill="Terraform" bg="#844fba" color="white" />
+            <Skill icon={<SiJenkins />} skill="Jenkins" bg="#335061" color="white" />
+            <Skill icon={<SiDocker />} skill="Docker" bg="#0db7ed" color="white" />
             <Skill icon={<SiExpo />} skill="Expo Go" bg="#1c1e24" color="white" />
             <Skill icon={<SiNpm />} skill="NPM" bg="#cb0000" color="white" />
             <Skill icon={<SiYarn />} skill="Yarn" bg="#2c8ebb" color="white" />
@@ -57,17 +60,17 @@ const Overview = () => {
             <Skill icon={<SiSqlite />} skill="SQLite" bg="#07405e" color="white" />
           </Space>
           <h2>IDEs/Editors I Use</h2>
-          <Space wrap>
+          <Space wrap style={{ maxWidth: "800px" }}>
             <Skill icon={<SiVisualstudiocode />} skill="Visual Studio Code" bg="#0078d7" color="white" />
             <Skill icon={<SiVisualstudio />} skill="Visual Studio" bg="#5c2d91" color="white" />
             <Skill icon={<SiVim />} skill="Vim" bg="#11ab00" color="white" />
+            <Skill icon={<SiIntellijidea />} skill="IntelliJ" bg="#000" color="white" />
             <Skill icon={<SiAndroid />} skill="Android Studio" bg="#3ddc84" color="white" />
             <Skill icon={<SiClion />} skill="CLion" bg="#000" color="white" />
             <Skill icon={<SiCodepen />} skill="CodePen" bg="#fff" color="#000" />
-            <Skill icon={<SiIntellijidea />} skill="IntelliJ" bg="#000" color="white" />
           </Space>
           <h2>Operating Systems I Use</h2>
-          <Space wrap>
+          <Space wrap style={{ maxWidth: "800px" }}>
             <Skill icon={<SiWindows />} skill="Windows" bg="#0078d7" color="white" />
             <Skill icon={<SiLinux />} skill="Linux" bg="#fcc624" color="white" />
             <Skill icon={<SiUbuntu />} skill="Ubuntu" bg="#e95420" color="white" />
@@ -78,12 +81,11 @@ const Overview = () => {
             <Skill icon={<SiAndroid />} skill="Android" bg="#3ddc84" color="white" />
           </Space>
           <h2>Other things I Use</h2>
-          <Space wrap>
+          <Space wrap style={{ maxWidth: "800px" }}>
             <Skill icon={<SiApache />} skill="Apache" bg="#d42029" color="white" />
             <Skill icon={<SiNginx />} skill="NGINX" bg="#009639" color="white" />
             <Skill icon={<SiGithub />} skill="GitHub" bg="#121011" color="white" />
             <Skill icon={<SiAnsible />} skill="Ansible" bg="#1a1918" color="white" />
-            <Skill icon={<SiDocker />} skill="Docker" bg="#0db7ed" color="white" />
             <Skill icon={<SiPostman />} skill="Postman" bg="#ff6c37" color="white" />
             <Skill icon={<SiRaspberrypi />} skill="Raspbery Pi" bg="#c51a4a" color="white" />
             <Skill icon={<SiMicrosoftoffice />} skill="Microsoft Office" bg="#d83b01" color="white" />

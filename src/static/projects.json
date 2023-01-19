@@ -1,25 +1,19 @@
 [
     {
-        "name": "STEM Access For All",
-        "url": "https://www.stemaccessforall.org/",
-        "description": "STEM Access For All is a nonprofit organization that provides free access to STEM education to students in underserved communities. The organization works with schools, community colleges, and universities to provide free access to STEM education to students in underserved communities.",
-        "image": "../images/safa.png",
-        "main_language": "Python",
+        "name": "URL Shortner",
+        "url": "https://short.ethanshealey.com",
+        "description": "A simple-to-use URL shortner for creating convenient URLs",
+        "image": "../images/short.png",
+        "main_language": "JavaScript",
         "source": null,
         "tools": [
-            "Flask",
-            "Flask Admin",
-            "Flask Login",
-            "SQL / SQLAlchemy / SQLite",
-            "Flask Mail"
+            "JavaScript",
+            "NextJS",
+            "Firebase"
         ],
         "features": [
-            "User Registration / Login",
-            "Admin Panel",
-            "Survey System",
-            "Custom Messaging System along with Email support",
-            "Custom Search Function",
-            "Custom Content Management System"
+            "Easily enter any URL into the input and recieve a convenient and hopefully shorter one back",
+            "Any URL already existing in the database will simply just send back the same URL if attempted to be shortened again"
         ]
     },
     {
@@ -27,7 +21,7 @@
         "url": "https://code.ethanshealey.com",
         "description": "A simple code editor that can run dozens of languages!",
         "image": "../images/code.png",
-        "main_language": "JavaScript",
+        "main_language": "TypeScript",
         "source": "https://github.com/ethanshealey/code-editor",
         "tools": [
             "React",
@@ -47,7 +41,7 @@
         "url": "https://wordle.ethanshealey.com",
         "description": "A clone of the famous 'Wordle' game!",
         "image": "../images/wordle.png",
-        "main_language": "JavaScript",
+        "main_language": "TypeScript",
         "source": "https://github.com/ethanshealey/wordle/tree/v2",
         "tools": [
             "React",
@@ -196,6 +190,29 @@
             "Custom Search Function",
             "Custom Live HTML Editor for Creating Posts",
             "Tag System"
+        ]
+    },
+    {
+        "name": "STEM Access For All",
+        "url": "https://www.stemaccessforall.org/",
+        "description": "STEM Access For All is a nonprofit organization that provides free access to STEM education to students in underserved communities. The organization works with schools, community colleges, and universities to provide free access to STEM education to students in underserved communities.",
+        "image": "../images/safa.png",
+        "main_language": "Python",
+        "source": null,
+        "tools": [
+            "Flask",
+            "Flask Admin",
+            "Flask Login",
+            "SQL / SQLAlchemy / SQLite",
+            "Flask Mail"
+        ],
+        "features": [
+            "User Registration / Login",
+            "Admin Panel",
+            "Survey System",
+            "Custom Messaging System along with Email support",
+            "Custom Search Function",
+            "Custom Content Management System"
         ]
     }
 ]
