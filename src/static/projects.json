@@ -1,5 +1,20 @@
 [
     {
+        "name": "Calculator",
+        "url": "https://calculator.ethanshealey.com",
+        "description": "A sleek and modern calculator app the features a basic calculator, an Interest calculator, and a loan calculator!",
+        "image": "../images/calc.png",
+        "main_language": "JavaScript",
+        "source": null,
+        "tools": [
+            "JavaScript",
+            "NextJS"
+        ],
+        "features": [
+            "Calculate basic math problems, how much you would make with a savings account, or how much a loan will cost you all with this handy, sleek, and modern tool!",
+        ]
+    },
+    {
         "name": "URL Shortner",
         "url": "https://short.ethanshealey.com",
         "description": "A simple-to-use URL shortner for creating convenient URLs",
