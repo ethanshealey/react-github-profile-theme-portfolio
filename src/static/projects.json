@@ -1,5 +1,22 @@
 [
     {
+        "name": "Valorant Rank Tracker | Who Are You",
+        "url": "https://github.com/ethanshealey/valorant-who-are-you-v2/",
+        "description": "A fully from scratch app that shows users who they are up against when playing the popular Riot Games title, VALORANT",
+        "image": "../images/whoareyou.png",
+        "main_language": "TypeScript",
+        "source": null,
+        "tools": [
+            "TypeScript",
+            "Electron",
+            "VALORANT's Game API"
+        ],
+        "features": [
+            "Discover who you are up against!",
+            "See who are queued together"
+        ]
+    },
+    {
         "name": "Calculator",
         "url": "https://calculator.ethanshealey.com",
         "description": "A sleek and modern calculator app the features a basic calculator, an Interest calculator, and a loan calculator!",
