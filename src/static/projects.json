@@ -2,7 +2,7 @@
     {
         "name": "Photos",
         "url": "https://photos.ethanshealey.com/",
-        "description": "",
+        "description": "Show off all your favorite photos with this super simple webapp! It's easy to customize, just replace the google photos album links in src/albums.json with your desired links, and all your favorite photos will be shown when the page is loaded!",
         "image": "../images/photos.png",
         "main_language": "JavaScript",
         "source": "https://github.com/ethanshealey/photos/",
@@ -11,7 +11,7 @@
             "Google Photos"
         ],
         "features": [
-            "Easy to customize, just replace the google photos album links in src/albums.json with your desired links, and all your favorite photos will be shown when the page is loaded!"
+            "Loads any given google photo album links"
         ]
     },
     {
