@@ -1,5 +1,20 @@
 [
     {
+        "name": "Photos",
+        "url": "https://photos.ethanshealey.com/",
+        "description": "",
+        "image": "../images/photos.png",
+        "main_language": "JavaScript",
+        "source": "https://github.com/ethanshealey/photos/",
+        "tools": [
+            "JavaScript",
+            "Google Photos"
+        ],
+        "features": [
+            "Easy to customize, just replace the google photos album links in src/albums.json with your desired links, and all your favorite photos will be shown when the page is loaded!"
+        ]
+    },
+    {
         "name": "Valorant Rank Tracker | Who Are You",
         "url": "https://github.com/ethanshealey/valorant-who-are-you-v2/",
         "description": "A fully from scratch app that shows users who they are up against when playing the popular Riot Games title, VALORANT",
