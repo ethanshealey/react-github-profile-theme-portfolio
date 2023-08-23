@@ -1,5 +1,27 @@
 [
     {
+        "name": "Stocks",
+        "url": "https://stocks.ethanshealey.com/",
+        "description": "Research stocks, create a watchlist, and even play around with paper trading!",
+        "image": "../images/stocks.png",
+        "main_language": "TypeScript",
+        "source": "https://github.com/ethanshealey/stocks/",
+        "tools": [
+            "TypeScript",
+            "Firebase",
+            "NextJS",
+            "YAHOO! Finance API",
+            "Alpha Vantage API"
+        ],
+        "features": [
+            "Includes Firebase authentication",
+            "You can use the sites full text search to find your desired stocks",
+            "Add your favorite stocks to your watchlist",
+            "Browse stock related news",
+            "Coming Soon: Paper trading!"
+        ]
+    },
+    {
         "name": "Photos",
         "url": "https://photos.ethanshealey.com/",
         "description": "Show off all your favorite photos with this super simple webapp! It's easy to customize, just replace the google photos album links in src/albums.json with your desired links, and all your favorite photos will be shown when the page is loaded!",
