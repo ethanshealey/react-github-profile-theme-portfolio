@@ -86,12 +86,12 @@
         ]
     },
     {
-        "name": "Web-based Code Editor",
+        "name": "Web-based Code Editor V2",
         "url": "https://code.ethanshealey.com",
         "description": "A simple code editor that can run dozens of languages!",
-        "image": "../images/code.png",
+        "image": "../images/code-editor-v2.png",
         "main_language": "TypeScript",
-        "source": "https://github.com/ethanshealey/code-editor",
+        "source": "https://github.com/ethanshealey/code-editor-v2",
         "tools": [
             "React",
             "TypeScript",
