@@ -1,5 +1,24 @@
 [
     {
+        "name": "Study",
+        "url": "https://study.ethanshealey.com/",
+        "description": "Create, share, and use decks of flash cards to help you study for anything you need to learn!",
+        "image": "../images/study.png",
+        "main_language": "TypeScript",
+        "source": "hhttps://github.com/ethanshealey/flash-cards",
+        "tools": [
+            "TypeScript",
+            "Firebase",
+            "NextJS"
+        ],
+        "features": [
+            "Without needing an account, view all the public flash card decks as you wish!",
+            "With an account, you can create your own public or private flash card decks",
+            "Update your previously created decks at the click of a button",
+            "Search the database for any decks that might interest you"
+        ]
+    },
+    {
         "name": "Stocks",
         "url": "https://stocks.ethanshealey.com/",
         "description": "Research stocks, create a watchlist, and even play around with paper trading!",
