@@ -179,24 +179,6 @@
         ]
     },
     {
-        "name": "Image Converter",
-        "url": "http://converter.ethanshealey.com/",
-        "source": "https://github.com/ethanshealey/ReactConverter",
-        "description": "Converter is a simple React app that allows users to upload JPEG, PNG, and GIF files in order to either convert or compress the image. ",
-        "image": "../images/converter.png",
-        "main_language": "JavaScript",
-        "tools": [
-            "AntDesign",
-            "ReactJS",
-            "image-conversion"
-        ],
-        "features": [
-            "Easy to use",
-            "Convert images to JPEG, PNG, and GIF",
-            "Compress images up to 5x smaller then original"
-        ]
-    },
-    {
         "name": "Trivia! (Web)",
         "url": "http://trivia.ethanshealey.com/",
         "api": "https://www.opentdb.com",
