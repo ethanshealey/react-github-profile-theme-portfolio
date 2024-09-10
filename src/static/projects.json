@@ -1,11 +1,27 @@
 [
     {
+        "name": "Retro Museum",
+        "url": "https://retro.ethanshealey.com/",
+        "description": "A virtual museum to document my journey through all things vintage and retro!",
+        "image": "../images/retro.png",
+        "main_language": "TypeScript",
+        "source": "https://github.com/ethanshealey/retro-museum",
+        "tools": [
+            "TypeScript",
+            "React95",
+            "NextJS"
+        ],
+        "features": [
+            "Dynamically upload content via json files located in the data folder!"
+        ]
+    },
+    {
         "name": "Study",
         "url": "https://study.ethanshealey.com/",
         "description": "Create, share, and use decks of flash cards to help you study for anything you need to learn!",
         "image": "../images/study.png",
         "main_language": "TypeScript",
-        "source": "hhttps://github.com/ethanshealey/flash-cards",
+        "source": "https://github.com/ethanshealey/flash-cards",
         "tools": [
             "TypeScript",
             "Firebase",
